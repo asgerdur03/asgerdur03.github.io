@@ -1,0 +1,31 @@
+.footer *{
+   /* border: red dotted 1px*/
+
+}
+
+.footerContainer{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.footerIcons,
+.footerLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    width: 50%;
+    gap: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.copyright{
+    text-align: center;
+    background-color: chartreuse;
+}
+
