@@ -21,6 +21,7 @@ export default function RootLayout({
         <Header />
         <main className="content">
           {children}
+          <p className="vinnsla">Þessi síða er i vinnslu</p>
         </main>
         <Footer />
       </body>

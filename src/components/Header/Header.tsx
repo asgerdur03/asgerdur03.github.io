@@ -45,6 +45,7 @@ export default function Header() {
             </button>
         </div>
 
+<<<<<<< HEAD
         {/* open burger */}
         {isMenuOpen && (
             <nav className={styles.smallNav}>
@@ -56,4 +57,15 @@ export default function Header() {
         )}  
     </div>
     </header>
+=======
+        <div>
+            <p>Rest a nav bar, hamburger í minna en ~500px</p>
+        </div>
+
+        
+    </nav>
+    
+    
+    </>
+>>>>>>> 87be48e5043d8be7ae19c7353e1cfe6418ef79c3
 }
