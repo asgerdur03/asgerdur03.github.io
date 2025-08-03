@@ -1,8 +1,57 @@
+.about *{
+    color: var(--color-indigo);
+}
+
 .about{
     background-color: var(--color-lavender);
+    padding: 5rem 0;
+}
+
+.aboutHeader{
+    text-align: center;
+}
+
+.aboutContent{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 1rem;
+}
+
+
+.aboutImage img{
+    height: 17rem;
+    width: 17rem;
+
+    border-radius: 50%;
+    border: 1rem solid var(--color-light-blue);
+
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+@media ( min-width: 600px) {
+    .aboutContent{
+        flex-direction: row;
+    }
+    
+}
+
+
+
+
+
+
+.divider{
+    width: 5rem;
+    height: 0.25rem;
+    background-color: var(--color-purple);
+    margin: 1rem auto;
 }
 
 .todo{
     color: red;
-    font-size: 70px;
+    font-size: 50px;
 }

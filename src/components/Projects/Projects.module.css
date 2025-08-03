@@ -1,3 +1,35 @@
 .projects{
     background-color: white;
+    padding: 5rem 0;
+    background-image: url('/sheep.svg');
+    background-size: 80px 70px;
+    background-position: center;
+    justify-items: center;
 }
+
+.projectsHeader{
+    text-align: center;
+}
+
+.divider{
+    width: 5rem;
+    height: 0.25rem;
+    background-color: var(--color-purple);
+    margin: 1rem auto;
+}
+
+.projectsCards{
+    padding: 2rem 0;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1200px;
+
+}
+
+@media (min-width: 800px) {
+  .projectsCards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+

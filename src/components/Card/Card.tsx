@@ -1,18 +1,49 @@
+'use client'
 import styles from "./Card.module.css"
+import Image from "next/image"
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LaunchIcon from '@mui/icons-material/Launch';
 
 
 /* TODO: gera actual card porps */
 type CardProps = {
+    image: string;
     title: string;
     description: string;
-    link: string;
+    technologies: string[];
+    demoUrl: string;
+    githubUrl: string;
+    
 }
-export default function Card({title, description, link}: CardProps) {
+export default function Card({image, title, description, technologies, demoUrl, githubUrl}: CardProps) {
+    
+
     return (
         <div className={styles.card}>
-            <h1>{title}</h1>
-            <p>{description}</p>
-            <a href={link}>Link</a>
+            <div className={styles.cardImage}>
+                <Image src={image} alt="inspo pic" width={100} height={60}/>
+            </div>
+            <div className={styles.cardContent}>
+                <h2 className={styles.cardTitle}>{title}</h2>
+                <p className={styles.cardDescription}>{description}</p>
+                <div className={styles.cardTechnologies}>
+                    {technologies.map((tech, index) => (
+                        <span className={styles.cardTech} key={index}>
+                            {tech}
+                        </span>
+                    ))}
+                </div>
+                <div className={styles.cardLinks}>
+                    <a href={demoUrl} className={styles.demo}>
+                        <LaunchIcon fontSize="small" />
+                        <span>Demo</span>
+                    </a>
+                    <a href={githubUrl} className={styles.code}>
+                        <GitHubIcon fontSize="small" />
+                        <span>Code</span>
+                    </a>
+                </div>
+            </div>       
         </div>
     );
 }

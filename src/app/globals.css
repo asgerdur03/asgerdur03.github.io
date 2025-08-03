@@ -8,7 +8,7 @@
 
     /*font and shit*/
     --font-size: 16px;
-    --font-family: 'Comico Sans MS', cursive, sans-serif;
+    --font-family: 'courier new', courier, monospace;
 
     
 }
@@ -17,15 +17,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-/*outline: red dotted 1px*/
+    /*utline: red dotted 1px*/
 
     
 }
 
 body{
-    
-    background-color: white;
     font-family: var(--font-family);
     display: flex;
     flex-direction: column;
