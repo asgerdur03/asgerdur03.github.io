@@ -1,0 +1,8 @@
+.about{
+    background-color: var(--color-lavender);
+}
+
+.todo{
+    color: red;
+    font-size: 70px;
+}

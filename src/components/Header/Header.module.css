@@ -4,5 +4,18 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background: linear-gradient(90deg, rgb(185, 224, 28) 0%, rgb(135, 252, 223) 35%, rgba(0,212,255,1) 100%);
+    background: var(--color-dark-blue);
+    background: linear-gradient(135deg, var(--color-dark-blue) 0% 40%, var(--color-purple) 90% 100%);
+
+
+    color: var(--color-lavender);
+}
+
+.navLogo *{
+    color: var(--color-lavender);
+    transition: transform 2s ease-in-out;
+}
+
+.navLogo :hover{
+    transform: rotate(360deg);
 }
