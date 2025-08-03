@@ -1,0 +1,13 @@
+.card{
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+    background-color: var(--color-lavender);
+}
+
+.card *{
+    color: var(--color-indigo);
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px 0px var(--color-indigo);}

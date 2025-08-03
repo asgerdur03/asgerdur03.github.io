@@ -1,31 +1,59 @@
-.footer *{
-   /* border: red dotted 1px*/
+.footer{
+    /* border: red dotted 1px*/
+    background: var(--color-dark-blue);
+    background: linear-gradient(135deg, var(--color-dark-blue) 0% 40%, var(--color-purple) 90% 100%);
+
 
 }
 
 .footerContainer{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: aquamarine;
 }
 
-.footerIcons,
-.footerLinks{
+.footerIcons{
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
     align-items: center;
     width: 50%;
+    max-width: 300px;
     gap: 10px;
     margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
 }
 
-.copyright{
-    text-align: center;
-    background-color: chartreuse;
+.footerIcons div a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+
+    color: var(--color-light-blue);
+    gap: 10px;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 8px;
+    border-radius: 20%;
+
 }
+
+
+.footerIcons div :hover{
+    background-color: var(--color-lavender);
+
+}
+
+.footerInfo{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-lavender);
+}
+
 

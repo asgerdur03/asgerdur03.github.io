@@ -1,9 +1,11 @@
-import Image from "next/image";
+import About from "@/components/About/About";
+import Projects from "@/components/Projects/Projects";
 
 export default function Home() {
-  return (
-    <div>      
-      <p> blalbalbal, ferilskrá og liknar að verkefnum eða ehv</p>
+
+  /*
+  TODO: 
+  <p> blalbalbal, ferilskrá og liknar að verkefnum eða ehv</p>
       
         <ul>
         <li>1. pokemon pomodoro niðurteljara thing (credit til villu)</li>
@@ -13,8 +15,13 @@ export default function Home() {
         </ul>
       
       <p>todo: nota project component til að linka verkefni, copm ætti að taka þessi attributes sem props</p>
-      
-      <Image src="/image.png" alt="inspo pic" width={250} height={150}/>
-    </div>
+
+
+  */
+  return (
+    <>
+      <About/>
+      <Projects/>
+    </>
   );
 }
