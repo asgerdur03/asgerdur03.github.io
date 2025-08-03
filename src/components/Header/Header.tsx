@@ -17,6 +17,7 @@ export default function Header() {
         <div>
             <p>Rest a nav bar, hamburger í minna en ~500px</p>
         </div>
+
         
     </nav>
     
