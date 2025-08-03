@@ -1,21 +1,97 @@
-.nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    background: var(--color-dark-blue);
+
+.header{
+    color: var(--color-lavender);
     background: linear-gradient(135deg, var(--color-dark-blue) 0% 40%, var(--color-purple) 90% 100%);
 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 
-    color: var(--color-lavender);
+.container {
+    max-width: 1200px;
+}
+
+.headerContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navLogo *{
-    color: var(--color-lavender);
-    transition: transform 2s ease-in-out;
+    transition: transform 1s ease-in-out;
+}
+
+.navLogo{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.5rem;
 }
 
 .navLogo :hover{
     transform: rotate(360deg);
 }
+
+
+.bigNav{
+    display:none;
+    gap: 2rem;
+    padding : 0 1rem ;
+
+}
+
+.hamburgerButton {
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--color-lavender);
+    padding: 0 1rem;
+}
+
+.smallNav {
+    top: 100%;
+    right: 0;
+
+
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--color-lavender);
+
+}
+
+.smallNavContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+@media (min-width: 900px) {
+    .bigNav {
+        display: flex;
+    }
+
+    .hamburgerButton {
+        display: none;
+    }
+
+    .smallNav {
+        display: none;
+    }
+}
+
+.smallNavButton,
+.bigNavButton
+{
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--color-lavender);
+}
+
+

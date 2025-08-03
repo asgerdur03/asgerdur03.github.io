@@ -12,22 +12,22 @@ export default function Footer() {
     <footer className={styles.footer}>
         <div className={styles.footerContainer}>
             <div className={styles.footerInfo}>
-                <p>blabla ehv lokaorð (contact me...etv)</p>
+                <p>Hafðu samband, eða fygldu mér á samfélagsmiðlum</p>
             </div>
             <div className={styles.footerIcons}>
 
                 <div>
-                    <a href="https://github.com/asgerdur03"><GitHubIcon/></a>
+                    <a href="https://github.com/asgerdur03"><GitHubIcon fontSize="large"/></a>
                     
                 </div>
 
                 <div>
-                    <a href="https://www.linkedin.com/in/%C3%A1sger%C3%B0ur-gunnarsd%C3%B3ttir-37a730292/"><LinkedInIcon/></a>
+                    <a href="https://www.linkedin.com/in/%C3%A1sger%C3%B0ur-gunnarsd%C3%B3ttir-37a730292/"><LinkedInIcon fontSize="large"/></a>
 
                 </div>
 
                 <div>
-                    <a href="mailto:asgerdur03@gmail.com"><MailOutlineIcon/></a>
+                    <a href="mailto:asgerdur03@gmail.com"><MailOutlineIcon fontSize="large"/></a>
                     
                 </div>
 
