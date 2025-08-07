@@ -1,5 +1,6 @@
 import styles from "./Projects.module.css"
 import Card from "../Card/Card";
+import { describe } from "node:test";
 export default function Projects() {
 
     /**
@@ -13,6 +14,14 @@ export default function Projects() {
         technologies: ["Spring", "Thymeleaf", "CSS"],
         demoUrl: "https://hugboverkefni1.onrender.com/",
         githubUrl: "https://github.com/asgerdur03/HugboVerkefni1/tree/api"
+    },
+    {
+        image: "/images/cat.jpg",
+        title : "Random Cat Generator",
+        description: "Random cat generator, hægt er að skrifa caption til að setja á random kött og hlaða niður myndinni",
+        technologies: ["Javascript", "Web API"],
+        demoUrl: "https://random-cat-generato.netlify.app/",
+        githubUrl: "https://github.com/asgerdur03/vef-verkefni10"
     }
     ]
 
