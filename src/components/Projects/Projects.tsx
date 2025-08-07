@@ -7,28 +7,12 @@ export default function Projects() {
      */
     const CardInfo =[
     {
-        image: "./pikachu.svg",
-        title: "Project 1",
-        description: "This is a project descriptionhis is a project deschis is a project deschis is a project deschis is a project deschis is a project desc",
-        technologies: ["React", "TypeScript", "CSS"],
-        demoUrl: "https://example.com/demo",
-        githubUrl: "https://github.com/example"
-    },
-    {
-        image: "./pikachu.svg",
-        title: "Project 2",
-        description: "This is a project descriptionheschis is a project deschis is a project desc",
-        technologies: ["React", "TypeScript", "hesSS"],
-        demoUrl: "https://example.com/demo",
-        githubUrl: "https://github.com/example"
-    },
-    {
-        image: "./pikachu.svg",
-        title: "Project 3",
-        description: "This is a project descriptionhis is a project deschis is a project deschis is a project deschis is a project deschis is a project desc",
-        technologies: ["React", "TypeScript", "CSS"],
-        demoUrl: "https://example.com/demo",
-        githubUrl: "https://github.com/example"
+        image: "/images/task-manager.jpg",
+        title: "Task Manager",
+        description: "Spring API, skrifaður fyrir áfangann \"Hugbúnaðarverkefni 1\". Framendi skrfaður með thymeleaf, og er hýstur á Render (ATH: Render, free version er mjöööög hægt á startupi). Demo user: {username: 'demo1', password: 'demo1'}",
+        technologies: ["Spring", "Thymeleaf", "CSS"],
+        demoUrl: "https://hugboverkefni1.onrender.com/",
+        githubUrl: "https://github.com/asgerdur03/HugboVerkefni1/tree/api"
     }
     ]
 

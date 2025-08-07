@@ -21,7 +21,7 @@ export default function Card({image, title, description, technologies, demoUrl, 
     return (
         <div className={styles.card}>
             <div className={styles.cardImage}>
-                <Image src={image} alt="inspo pic" width={100} height={60}/>
+                <Image src={image} alt="inspo pic" width={500} height={300}/>
             </div>
             <div className={styles.cardContent}>
                 <h2 className={styles.cardTitle}>{title}</h2>
