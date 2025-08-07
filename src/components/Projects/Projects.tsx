@@ -1,12 +1,28 @@
 import styles from "./Projects.module.css"
 import Card from "../Card/Card";
-import { describe } from "node:test";
 export default function Projects() {
 
     /**
      * TODO: gera card með actual upplýsingum
      */
     const CardInfo =[
+    {
+        image: "/images/cat.jpg",
+        title : "Random Cat Generator",
+        description: "Random cat generator, hægt er að skrifa caption til að setja á random kött og hlaða niður myndinni",
+        technologies: ["Javascript", "Web API"],
+        demoUrl: "",
+        githubUrl: "https://github.com/asgerdur03/vef-verkefni10"
+    },
+    {
+        image: "./pikachu.svg",
+        title : "Pokedex TCG checklist",
+        description: "Tékklisti fyrir Pokedex challenge TCG. Í vinnslu",
+        technologies: [],
+        demoUrl: "https://github.com/asgerdur03/pokedex-checklist",
+        githubUrl: "https://github.com/asgerdur03/pokedex-checklist"
+
+    },
     {
         image: "/images/task-manager.jpg",
         title: "Task Manager",
@@ -16,12 +32,13 @@ export default function Projects() {
         githubUrl: "https://github.com/asgerdur03/HugboVerkefni1/tree/api"
     },
     {
-        image: "/images/cat.jpg",
-        title : "Random Cat Generator",
-        description: "Random cat generator, hægt er að skrifa caption til að setja á random kött og hlaða niður myndinni",
-        technologies: ["Javascript", "Web API"],
-        demoUrl: "https://random-cat-generato.netlify.app/",
-        githubUrl: "https://github.com/asgerdur03/vef-verkefni10"
+        image: "/images/cat2.png",
+        title : "Spottaði kött",
+        description: "Vefsíða/samfélagsmiðill til að pósta ef þú spottaðir kött. Web API frá grunni og framendi með React. Fyrsta verkefnið mitt í React, gæti verið betra. Demo user: {username: 'admin', email: 'admin@admin.com', password: 'password'}",
+        technologies: ["Typescript", "Web API", "Postgresql","Prisma", "Hono", "React" ],
+        demoUrl: "https://einstaklings-react.vercel.app/",
+        githubUrl: "https://github.com/asgerdur03/Einstaklingsverkefni-allt/blob/main/plan.md"
+
     }
     ]
 

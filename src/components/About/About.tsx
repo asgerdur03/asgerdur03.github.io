@@ -13,6 +13,8 @@ export default function About() {
             spread: 360
         });
     };
+
+    const openPDF = () => window.open("/ferilskra_asgerdur_gunnarsdottir.pdf", "_blank");
     
     return (
         <section id="about" className={styles.about}>
@@ -24,7 +26,7 @@ export default function About() {
                 <div className={styles.aboutText}>
                     <p>blblblblblblablalba,</p>
                     <p className={styles.todo}>Vefsíða er í vinnslu</p>
-                    <button onClick={handleClick}>Ferilskrá</button>
+                    <button  className={styles.button} onClick={openPDF}>Ferilskrá</button>
 
                 </div>
                 <div className={styles.aboutImage}>

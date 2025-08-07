@@ -5,7 +5,7 @@ import Footer from "@/components/Footer/Footer";
 
 
 export const metadata: Metadata = {
-  title: "My Website",
+  title: "AJG ",
   description: "Page to store my projects",
   authors: [{ name: "Ásgerður Júlía Gunnarsdóttir", url: "http://asgerdur03.github.io/" }],
 };

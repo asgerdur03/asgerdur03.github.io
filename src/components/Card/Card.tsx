@@ -5,7 +5,6 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LaunchIcon from '@mui/icons-material/Launch';
 
 
-/* TODO: gera actual card porps */
 type CardProps = {
     image: string;
     title: string;
