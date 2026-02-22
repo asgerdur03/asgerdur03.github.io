@@ -11,10 +11,8 @@ export default function Home() {
         <li>1. pokemon pomodoro niðurteljara thing (credit til villu)</li>
         <li>2. 2048 leikur (mabey)</li>
         <li>3. gömul verkefni</li>
-        <li>4. Svona skill yfirlit, kannski ferilskrá-ish</li>
         </ul>
       
-      <p>todo: nota project component til að linka verkefni, copm ætti að taka þessi attributes sem props</p>
 
 
   */

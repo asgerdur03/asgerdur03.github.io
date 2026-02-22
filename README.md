@@ -1,5 +1,4 @@
 TODO: 
 
-1. linka ferilskrá
-2. skrifa um mig section
-3. setja inn actual verkefni 
+1. skrifa um mig section
+2. setja inn actual verkefni 

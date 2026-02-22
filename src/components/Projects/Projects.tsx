@@ -15,6 +15,14 @@ export default function Projects() {
         githubUrl: "https://github.com/asgerdur03/vef-verkefni10"
     },
     {
+        image: "/images/react.png",
+        title : "React Verkefni",
+        description: "Verkefni frá React Practice Calender",
+        technologies: ["React", "Next.js"],
+        demoUrl: "https://react-practice-sage-pi.vercel.app/",
+        githubUrl: "https://github.com/asgerdur03/react-practice"
+    },
+    {
         image: "./pikachu.svg",
         title : "Pokedex TCG checklist",
         description: "Tékklisti fyrir Pokedex challenge TCG. Í vinnslu",
