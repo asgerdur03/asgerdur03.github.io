@@ -11,7 +11,7 @@ export default function Projects() {
         title : "Random Cat Generator",
         description: "Random cat generator, hægt er að skrifa caption til að setja á random kött og hlaða niður myndinni",
         technologies: ["Javascript", "Web API"],
-        demoUrl: "",
+        demoUrl: "https://random-cat-generato.netlify.app/",
         githubUrl: "https://github.com/asgerdur03/vef-verkefni10"
     },
     {
